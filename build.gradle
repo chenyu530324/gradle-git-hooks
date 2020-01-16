@@ -28,3 +28,5 @@ dependencies {
 test {
     jvmArgs "-noverify"
 }
+
+apply from: rootProject.file('gradle/git-hooks.gradle')
